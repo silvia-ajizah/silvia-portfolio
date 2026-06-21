@@ -1,0 +1,52 @@
+.footer {
+  background: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* NAME */
+.footer h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+/* ROLE */
+.footer-role {
+  font-size: 14px;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+/* SOCIAL */
+.footer-social {
+  margin-bottom: 20px;
+}
+
+.footer-social a {
+  color: white;
+  font-size: 20px;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+/* HOVER */
+.footer-social a:hover {
+  color: #60a5fa;
+  transform: translateY(-3px);
+}
+
+/* COPYRIGHT */
+.footer-copy {
+  font-size: 12px;
+  opacity: 0.6;
+}
+.back-top {
+  margin-top: 15px;
+  background: #364872;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}

@@ -1,0 +1,91 @@
+.skills {
+  padding: 80px 0;
+  text-align: center;
+  background: #f5f7fb;
+}
+
+.section-title {
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: #364872;
+}
+
+/* TABS */
+.skill-tabs {
+  margin-bottom: 30px;
+}
+
+.skill-tabs button {
+  border: none;
+  background: white;
+  margin: 5px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.skill-tabs button.active {
+  background: #364872;
+  color: white;
+}
+
+.skill-tabs button:hover {
+  transform: translateY(-2px);
+}
+
+/* GRID */
+.skills-grid {
+  width: 60%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* ITEM */
+.skill-item {
+  width: 65px;
+  height: 65px;
+  background: white;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.skill-item:hover {
+  transform: translateY(-6px) scale(1.05);
+}
+
+/* ICON */
+.skill-item img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+/* TOOLTIP */
+.skill-item span {
+  position: absolute;
+  bottom: 75px;
+  background: #364872;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 10px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.skill-item:hover span {
+  opacity: 1;
+  bottom: 70px;
+}
