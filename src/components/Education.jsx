@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import ActivityCarousel from "./ActivityCarousel";
+import ActivityCarousel from "./ActivityGallery";
 import "./education.css";
 
 /* ================= GALLERY SKRIPSI ================= */
@@ -148,12 +148,6 @@ function Education() {
           </motion.div>
 
         </motion.div>
-
-        {/* ================= ACTIVITIES ================= */}
-        <div className="education-activities">
-          <h3>Growth & Experience</h3>
-          <ActivityCarousel />
-        </div>
 
       </div>
     </section>

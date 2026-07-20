@@ -17,7 +17,6 @@ function Hero() {
         "System Analyst",
         "Web Developer",
         "Database Management",
-        "System Design",
       ],
       typeSpeed: 60,
       backSpeed: 40,
@@ -100,7 +99,7 @@ function Hero() {
           <h2 ref={typingRef}></h2>
 
           <p>
-            Information Systems graduate, experienced as a system analyst and web developer in web application development, has web programming certification and system analyst competency, and is an expert in system and database design.
+            Menganalisis kebutuhan bisnis, mengelola data secara akurat, dan mengembangkan solusi digital yang membantu organisasi bekerja lebih efektif.
           </p>
 
           <div className="hero-buttons">
@@ -109,7 +108,7 @@ function Hero() {
           </div>
 
           <div className="hero-social">
-            <a href="https://wa.me/62895627564402?text=Halo%20Silvia,%20saya%20tertarik%20dengan%20portfolio%20Anda"
+            <a href="https://wa.me/6282330699880?text=Halo%20Silvia,%20saya%20tertarik%20dengan%20portfolio%20Anda"
             target="_blank"
             rel="noopener noreferrer"  
             className="social-icon" 

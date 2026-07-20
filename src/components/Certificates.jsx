@@ -23,6 +23,27 @@ function Certificates() {
       images: ["./images/certificates/hki.jpg"]
     },
     {
+      title: "Project Management and Scrum Framework",
+      issuer: "MySkill",
+      year: "2026",
+      images: ["./images/certificates/pmscrum.jpg"]
+    },{
+      title: "Product Management Fundamental",
+      issuer: "MySkill",
+      year: "2026",
+      images: ["./images/certificates/pmfundamental.jpg"]
+    },{
+      title: "Forecasting, Regression and Statistic In Excel",
+      issuer: "MySkill",
+      year: "2026",
+      images: ["./images/certificates/forecasting.jpg"]
+    },{
+      title: "Microsoft Excel Advanced",
+      issuer: "MySkil",
+      year: "2026",
+      images: ["./images/certificates/exceladvanced.jpg"]
+    },
+    {
       title: "Belajar Dasar Pemrograman Web",
       issuer: "Dicoding",
       year: "2020",
@@ -50,7 +71,9 @@ function Certificates() {
 
   const visibleCertificates = showAll
     ? certificates
-    : certificates.slice(0, 6);
+    : certificates.slice(0, 10
+  
+    );
 
   const openModal = (cert) => {
     setSelected(cert);
