@@ -99,7 +99,7 @@ function Hero() {
           <h2 ref={typingRef}></h2>
 
           <p>
-            Menganalisis kebutuhan bisnis, mengelola data secara akurat, dan mengembangkan solusi digital yang membantu organisasi bekerja lebih efektif.
+            Analyzing business requirements, managing data accurately, and developing digital solutions that help organizations work more efficiently.
           </p>
 
           <div className="hero-buttons">

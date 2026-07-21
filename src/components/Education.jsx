@@ -78,12 +78,11 @@ function Education() {
 
             {/* ================= TUGAS AKHIR ================= */}
             <div className="thesis">
-              <h4>Tugas Akhir</h4>
+            <h4>Bachelor's Thesis</h4>
 
-              <p className="thesis-title">
-                Deteksi Ginjal Normal dan Ginjal Kronis Menggunakan 
-                Metode Fuzzy dan Neural Network Backpropagation
-              </p>
+            <p className="thesis-title">
+              Detection of Healthy and Chronic Kidney Disease Using Fuzzy Logic and Backpropagation Neural Network Methods
+            </p>
 
               {/* FOTO */}
               <ThesisGallery />
